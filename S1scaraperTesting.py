@@ -4,7 +4,7 @@ url = 'https://www.amazon.in/Seiko-Analog-White-Dial-Watch-SUR312P1/dp/B084KP1GK
 
 # We can add one or multiple candidates here.
 # You can also put urls here to retrieve urls.
-wanted_list = ["₹20,586"]
+wanted_list = [ "₹20,585.23","Seiko Analog White Dial Men's Watch-SUR312P1"]
 
 scraper = AutoScraper()
 result = scraper.build(url, wanted_list)
